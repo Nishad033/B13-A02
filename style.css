@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1600px;
+}
+
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+nav{
+    height: 92px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1A0B2E;
+    padding-left: 200px;
+    padding-right: 200px;
+
+
+}
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+}
+nav .menu a{
+    text-decoration: none;
+    color: white;
+    font: medium;
+    font-size: 16px;
+}
+nav .Logo{
+    font-size: 32px;
+    color: white;
+}
+nav .logo{
+    background-image: linear-gradient( to right top, #F7E93F 0%,#FB09B4 51%, #9100F8 100%);
+    background-clip: text;
+    color: transparent;
+}
+nav .btn{
+    background-image: linear-gradient( to right top, #F7E93F 0%,#FB09B4 51%, #9100F8 100%);
+    border: none;
+    padding: 12.5px 16px;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-weight: 600px;
+    font-size: 16px;
+    display: flex;
+    gap: 4px;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+.background{
+    background-image: url("assets/hero-bg.png");
+    height: 760px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}

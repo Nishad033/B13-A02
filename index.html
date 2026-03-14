@@ -3,38 +3,195 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="style.css">
-
-     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>TechWave</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body  class="font-open-sans">
+<body class="inter-font">
     <header>
-        <nav>
-            <div class="Logo">
-                <h3>Tech<span class="logo">Wave</span></h3>
-            </div>
-            <div>
-            <ul class="menu">
+        <nav class="navbar">
+            <h2>Tech<span class="wave">Wave</span></h2>
+            <ul class="navlist">
                 <li><a href="">About</a></li>
                 <li><a href="">Episodes</a></li>
                 <li><a href="">Host</a></li>
             </ul>
-            </div>
-            <div>
-                <button class="btn">Subscribe <img src="assets/ArrowRight.png" alt=""></button>
-                
+            <button class="btn1">Subscribe <img src="assets/ArrowRight.png" alt=""></button>
+            <div class="menubar">
+                <img src="assets/hamburger-menu.png" alt="">
             </div>
         </nav>
+        <section class="headersection">
+            <div class="herodiv">
+                <div class="heroimg">
+                    <img class="heroimg1" src="assets/hero-circle.png" alt="">
+                    <img class="heroimg2" src="assets/microphone.png" alt="">
+                    <div class="new">
+                        <p>NEW</p>
+                    </div>
+                </div>
+                <div class="hero">
+                    <h1>Techwave</h1>
+                    <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                    <div class="herobtn">
+                        <button class="btn1 left"><img src="assets/spotify.png" alt="">Listen On Spotify</button>
+                        <button class="btn1 right"><img src="assets/message.png" alt="">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
-    <section class="background">
-        <div>
-            
+    <main>
+        <section class="podcast">
+            <div class="podcastdiv">
+                <div class="podcasttext">
+                    <h2>About The Podcast</h2>
+                    <p>TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.
+                    We break down complex topics into digestible insights, explore productivity strategies that actually work,
+                    and share stories of personal growth from industry leaders.
+                        <br><br>
+                    Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
+                    </p>
+                </div>
+                <hr>
+                <div class="podcastcarddiv">
+                    <div class="podcastcard">
+                        <h3>150K+</h3>
+                        <p>MONTHLY LISTENERS</p>
+                    </div>
+                    <div class="podcastcard">
+                        <h3>200+</h3>
+                        <p>EPISODES PUBLISHED</p>
+                    </div>
+                    <div class="podcastcard">
+                        <h3>4.9★</h3>
+                        <p>AVERAGE RATING</p>
+                    </div>
+                    <div class="podcastcard">
+                        <h3>50+</h3>
+                        <p>Industry Experts</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="choose">
+            <div class="choosetitle">
+            <h2>Why Choose TechWave</h2>
+            <div class="chooseitem">
+                <div class="audio choosegrid">
+                    <img src="assets/headphone.png" alt="">
+                    <h4>Premium Audio Quality</h4>
+                    <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+                </div>
+
+                <div class="mobile choosegrid">
+                    <img src="assets/device.png" alt="">
+                    <h4>Mobile Friendly</h4>
+                    <p>Listen on the go with seamless mobile experience and offline downloads.</p>
+                </div>
+                <div class="global choosegrid">
+                    <img src="assets/location.png" alt="">
+                    <h4>Global Community</h4>
+                    <p>Connect with tech enthusiasts from over 120 countries worldwide.</p>
+                </div>
+                <div class="exclusive choosegrid">
+                    <img src="assets/Icon (Stroke).png" alt="">
+                    <h4>Exclusive Interviews</h4>
+                    <p>Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
+                </div>
+                <div class="rich choosegrid">
+                    <img src="assets/resource.png" alt="">
+                    <h4>Rich Resources</h4>
+                    <p>Access show notes, transcripts, and additional learning materials for every episode.</p>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="episodes">
+            <div class="upper1">
+                <h2>Featured Episodes</h2>
+                <div class="ytvideodiv">
+                    <div class="ytvideo">
+                        <iframe src="https://www.youtube.com/embed/QOKLW5ITEiI?si=6gF0DtyeFW0F7ad_" frameborder="0"></iframe>
+                        <h5>The Future of AI in Everyday Life</h5>
+                        <p>Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
+                        <div class="time">
+                            <img src="assets/clock.png" alt="">
+                            <p>20 min</p>
+                        </div>
+                    </div>
+                    <div class="ytvideo">
+                        <iframe src="https://www.youtube.com/embed/ObA4ne4TVsE?si=H_A3uHw8D3eT009x" frameborder="0"></iframe>
+                        <h5>Building Better Habits for Remote Work</h5>
+                        <p>Practical strategies for staying productive and maintaining work-life balance in a remote environment.</p>
+                        <div class="time">
+                            <img src="assets/clock.png" alt="">
+                            <p>155 min</p>
+                        </div>
+                    </div>
+                    <div class="ytvideo">
+                        <iframe src="https://www.youtube.com/embed/IZ_W8NufP1Y?si=9nnjAscJ9qiTHqwS" frameborder="0"></iframe>
+                        <h5>Career Growth in Tech: A Roadmap</h5>
+                        <p>Expert advice on navigating your tech career from junior developer to senior leadership roles.</p>
+                        <div class="time">
+                            <img src="assets/clock.png" alt="">
+                            <p>46 min</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lowerone">
+                <h2>Meet The Host</h2>
+                <div class="hostarea">
+                    <img src="assets/host.png" alt="">
+                    <div class="abouthost">
+                        <h4>Alex Kumar</h4>
+                        <p>Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
+                        <ul class="abouthostul">
+                            <li><a href="https://www.linkedin.com/login" target="_blank"><img src="assets/linkedin.png" alt=""></a></li>
+                            <li><a href="https://www.youtube.com/" target="_blank"><img src="assets/youtube.png" alt=""></a></li>
+                            <li><a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="assets/instagram.png" alt=""></a></li>
+                            <li><a href="https://x.com/login" target="_blank"><img src="assets/x.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footerdiv">
+        <h1>Tech<span class="bg-gradient-to-br from-yellow-300 via-pink-600 to-purple-400 bg-clip-text text-transparent">Wave</span></h1>
+        <ul>
+            <li>
+                <div class="footericon">
+                    <img src="assets/spotify.png" alt="">
+                    <p>Spotify</p>
+                </div>
+            </li>
+            <li>
+                <div class="footericon">
+                    <img src="assets/apple-podcast.png" alt="">
+                    <p>Apple Podcasts</p>
+                </div>
+            </li>
+            <li>
+                <div class="footericon">
+                    <img src="assets/youtube-podcast.png" alt="">
+                    <p>YouTube</p>
+                </div>
+            </li>
+            <li>
+                <div class="footericon">
+                    <img src="assets/twitter.png" alt="">
+                    <p>Twitter</p>
+                </div>
+            </li>
+        </ul>
+        <p>&copy; 2026 TechWave Podcast. All rights reserved.</p>
         </div>
-        
-    </section>
-    
+    </footer>
 </body>
 </html>

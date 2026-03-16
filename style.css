@@ -30,7 +30,7 @@ header{
     font-weight: bold;
     color: white;
 }
-.navbar .wave{
+.wave{
     background-image: linear-gradient( to right top, #F7E93F 0%,#FB09B4 51%, #9100F8 100%);
     background-clip: text;
     color: transparent;
@@ -63,11 +63,16 @@ header{
     background:  linear-gradient( to right top, #F7E93F 0%,#FB09B4 51%, #9100F8 100%);
     color: white;
     border: none;
-    align-items: center;;
+    align-items: center;
+    
+    
 }
 .btn1 img{
     width: 20px;
     height: 20px;
+}
+.btn1:hover{
+    background: transparent;
 }
 .menubar{
     display: none;
@@ -107,6 +112,19 @@ header{
 .heroimg2{
     max-width: 116.67px;
     position: absolute;
+    
+}
+.heroimg:hover .heroimg2{
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
 .new{
     width: 75px;
@@ -278,7 +296,7 @@ header{
     background-color: #1A0B2E;
     padding: 120px 0;
 }
-.upper1,.lowerone{
+.episode,.host{
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -286,10 +304,10 @@ header{
     align-items: center;
     gap: 40px;
 }
-.upper1{
+.episode{
     margin-bottom: 120px;
 }
-.upper1 h2{
+.episode h2{
     color: white;
     font-size: 3rem;
     font-weight: bold;
@@ -339,7 +357,7 @@ header{
     font-weight: 600;
     opacity: 100%;
 }
-.lowerone h2{
+.host h2{
     color: white;
     font-size: 3rem;
     font-weight: bold;
@@ -448,6 +466,7 @@ footer{
         width:46.67px;
         height:70px;
     }
+    
     .podcastdiv{
         gap: 40px;
     }
@@ -484,10 +503,10 @@ footer{
     .ytvideodiv{
         grid-template-columns: repeat(1, 1fr);
     }
-    .upper1 h2{
+    .episode h2{
         font-size: 2rem;
     }
-    .lowerone h2{
+    .host h2{
         font-size: 2rem;
     }
     .hostarea{
